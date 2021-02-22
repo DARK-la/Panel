@@ -1,0 +1,9 @@
+<meta>
+
+<info author="Dark" name="panel"	version="1.0" description="Es una panel de prueba" type="script" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	
+</meta>
+	
+	
