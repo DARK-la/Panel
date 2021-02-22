@@ -15,6 +15,7 @@ showCursor(true)
 addEventHandler("onClientGUIClick",botoncerrar,cerrarVentana,false)
 addEventHandler("onClientGUIClick",botondeagle,entregar_arma,false)
 addEventHandler("onClientGUIClick",botondinero,entregar_dinero,false)
+addEventHandler("onClientGUIClick",buttonmagico,magia_dar,false)
 
 end
 addCommandHandler("a",crearVentana)
@@ -33,3 +34,9 @@ end
 function entregar_dinero( ... )
 	triggerServerEvent("onClientBotonDinero",localPlayer)
 end
+
+function  magia_dar ( ... )
+	triggerServerEvent("onClientBotonMatar",localPlayer)
+	end
+
+
